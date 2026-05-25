@@ -1,0 +1,29 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Mon</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Monday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.70" pace="0">
+            <textevent timeoffset="0" message="Week 1 Monday - Strength block. 10 min Z2 warm-up."/>
+            <textevent timeoffset="60" message="Spin easy, target cadence 85-95 rpm."/>
+            <textevent timeoffset="300" message="Halfway through the warm-up."/>
+            <textevent timeoffset="540" message="Main set: 5x 3 min Z4 at LOW cadence (under 85 rpm), 7 min Z1 recovery."/>
+            <textevent timeoffset="580" message="Get ready - drop to a big gear, build to threshold."/>
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="180" OffDuration="420" OnPower="0.98" OffPower="0.50" pace="0" Cadence="80" CadenceResting="90">
+            <textevent timeoffset="0" message="GO! Z4 effort, big gear, cadence under 85 rpm. Push the pedals."/>
+            <textevent timeoffset="60" message="1 min in - keep the cadence low and the power up."/>
+            <textevent timeoffset="120" message="1 min to go - stay strong."/>
+            <textevent timeoffset="180" message="Done! 7 min easy Z1 recovery, spin a higher cadence."/>
+            <textevent timeoffset="540" message="60 seconds until next rep."/>
+            <textevent timeoffset="590" message="Get into a big gear, ready..."/>
+        </IntervalsT>
+        <Cooldown Duration="60" PowerLow="0.50" PowerHigh="0.40" pace="0">
+            <textevent timeoffset="0" message="Done. Easy spin to finish. Great work."/>
+        </Cooldown>
+    </workout>
+</workout_file>

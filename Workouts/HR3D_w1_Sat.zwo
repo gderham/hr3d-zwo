@@ -1,0 +1,37 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Sat</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Saturday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65" pace="0">
+            <textevent timeoffset="0" message="Week 1 Saturday - Z2 base with 2x 5 min Z5 efforts at 70 rpm."/>
+            <textevent timeoffset="60" message="10 min warm-up. Build smoothly into Z2."/>
+            <textevent timeoffset="540" message="Get ready - first Z5 effort coming up. Big gear, 70 rpm."/>
+        </Warmup>
+        <SteadyState Duration="300" Power="1.13" pace="0" Cadence="70">
+            <textevent timeoffset="0" message="GO! Z5, big gear, 70 rpm. This is a strength effort."/>
+            <textevent timeoffset="120" message="2 min in - keep grinding."/>
+            <textevent timeoffset="240" message="1 min left - hold the cadence down, hold the power up."/>
+            <textevent timeoffset="290" message="10 seconds!"/>
+        </SteadyState>
+        <SteadyState Duration="600" Power="0.65" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="Z2 recovery, 10 min. Spin out the legs at 90+ rpm."/>
+            <textevent timeoffset="540" message="1 min until next Z5 effort. Drop the gear."/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="1.13" pace="0" Cadence="70">
+            <textevent timeoffset="0" message="2nd effort - GO! Z5, 70 rpm, big gear."/>
+            <textevent timeoffset="150" message="Halfway. Stay strong."/>
+            <textevent timeoffset="240" message="1 min left."/>
+        </SteadyState>
+        <SteadyState Duration="1800" Power="0.65" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="Main set done. 30 min steady Z2 to finish."/>
+            <textevent timeoffset="600" message="20 min to go."/>
+            <textevent timeoffset="1200" message="10 min to go."/>
+            <textevent timeoffset="1740" message="Last minute. Great session."/>
+        </SteadyState>
+    </workout>
+</workout_file>

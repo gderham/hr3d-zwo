@@ -1,0 +1,28 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Thu</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Thursday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.40" PowerHigh="0.55" pace="0">
+            <textevent timeoffset="0" message="Week 1 Thursday - Low cadence strength session."/>
+            <textevent timeoffset="60" message="6 min Z1 warm-up, easy spin."/>
+            <textevent timeoffset="300" message="Get ready: 5x 5 min Z4 at LOW cadence (under 85 rpm)."/>
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="300" OffDuration="300" OnPower="0.98" OffPower="0.50" pace="0" Cadence="80" CadenceResting="90">
+            <textevent timeoffset="0" message="GO! Big gear, Z4, cadence under 85 rpm."/>
+            <textevent timeoffset="120" message="2 min in. Push through it."/>
+            <textevent timeoffset="240" message="1 min left - stay strong."/>
+            <textevent timeoffset="300" message="Done. 5 min easy Z1 recovery."/>
+            <textevent timeoffset="540" message="Get into a big gear, next rep in 60s."/>
+        </IntervalsT>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.35" pace="0">
+            <textevent timeoffset="0" message="Main set done. 10 min Z1 cool down."/>
+            <textevent timeoffset="300" message="Halfway through cool down."/>
+            <textevent timeoffset="540" message="Last minute - great work."/>
+        </Cooldown>
+    </workout>
+</workout_file>

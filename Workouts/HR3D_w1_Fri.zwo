@@ -1,0 +1,19 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Fri</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Friday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="2400" Power="0.50" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="Week 1 Friday - 40 min Z1 active recovery. Keep it easy throughout."/>
+            <textevent timeoffset="60" message="Spin at a comfortable cadence, 90+ rpm."/>
+            <textevent timeoffset="600" message="10 minutes in - stay relaxed."/>
+            <textevent timeoffset="1200" message="Halfway - shoulders down, easy breathing."/>
+            <textevent timeoffset="1800" message="10 min to go - resist the urge to push."/>
+            <textevent timeoffset="2340" message="Last minute. Recovery is when adaptation happens."/>
+        </SteadyState>
+    </workout>
+</workout_file>

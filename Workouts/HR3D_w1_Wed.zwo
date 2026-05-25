@@ -1,0 +1,42 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Wed</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Wednesday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.70" pace="0">
+            <textevent timeoffset="0" message="Week 1 Wednesday - Short intervals, short recoveries."/>
+            <textevent timeoffset="60" message="10 min Z2 warm-up, comfortable cadence 90+ rpm."/>
+            <textevent timeoffset="300" message="Halfway through warm-up."/>
+            <textevent timeoffset="540" message="Main set: 3 blocks of 10x (40s Z4 / 20s Z1), with 5 min Z1 between blocks."/>
+            <textevent timeoffset="580" message="Get ready - first block coming up."/>
+        </Warmup>
+        <IntervalsT Repeat="10" OnDuration="40" OffDuration="20" OnPower="0.98" OffPower="0.45" pace="0" Cadence="95" CadenceResting="85">
+            <textevent timeoffset="0" message="Block 1 - GO! 40s Z4."/>
+            <textevent timeoffset="40" message="Easy 20s."/>
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.45" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="Block 1 done. 5 min Z1 recovery."/>
+            <textevent timeoffset="240" message="1 min until Block 2."/>
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="40" OffDuration="20" OnPower="0.98" OffPower="0.45" pace="0" Cadence="95" CadenceResting="85">
+            <textevent timeoffset="0" message="Block 2 - GO!"/>
+            <textevent timeoffset="40" message="Easy 20s."/>
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.45" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="Block 2 done. 5 min Z1 recovery."/>
+            <textevent timeoffset="240" message="1 min until final block."/>
+        </SteadyState>
+        <IntervalsT Repeat="10" OnDuration="40" OffDuration="20" OnPower="0.98" OffPower="0.45" pace="0" Cadence="95" CadenceResting="85">
+            <textevent timeoffset="0" message="Block 3 - last one. GO!"/>
+            <textevent timeoffset="40" message="Easy 20s."/>
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.40" pace="0">
+            <textevent timeoffset="0" message="All blocks done. 5 min Z2 cool down."/>
+            <textevent timeoffset="240" message="Last minute - well done."/>
+        </Cooldown>
+    </workout>
+</workout_file>

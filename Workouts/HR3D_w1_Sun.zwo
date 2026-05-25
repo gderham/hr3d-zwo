@@ -1,0 +1,26 @@
+<workout_file>
+    <author>G Derham</author>
+    <name>HR3D w1 Sun</name>
+    <description>Haute Route 3 Day Event - Training Plan - Week 1 Sunday.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ENDURANCE"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.45" PowerHigh="0.60" pace="0">
+            <textevent timeoffset="0" message="Week 1 Sunday - 1 hr Z2 base ride."/>
+            <textevent timeoffset="60" message="5 min easy warm-up."/>
+            <textevent timeoffset="270" message="Settling into Z2 endurance pace."/>
+        </Warmup>
+        <SteadyState Duration="3000" Power="0.65" pace="0" Cadence="90">
+            <textevent timeoffset="0" message="50 min Z2. Comfortable cadence, conversational effort."/>
+            <textevent timeoffset="600" message="10 min in - relax the upper body."/>
+            <textevent timeoffset="1500" message="Halfway. Stay smooth."/>
+            <textevent timeoffset="2400" message="10 min to go."/>
+            <textevent timeoffset="2940" message="Last minute of the main effort."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.35" pace="0">
+            <textevent timeoffset="0" message="5 min easy cool down. End of week 1 - well done."/>
+        </Cooldown>
+    </workout>
+</workout_file>
